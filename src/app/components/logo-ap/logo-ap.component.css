@@ -1,3 +1,72 @@
+.container{ 
+    display: flex;
+    
+    align-items: center;
+    margin: auto;
+}
+
+.redes{
+    margin-right: 0.5em;
+
+}
+
+.redes img{
+    margin: 0.5em; 
+    
+
+
+}
+
+#Linkedin{
+    width: 50px; 
+    
+
+
+}
+
+#GitHub{
+    width: 30px;
+}
+
+#Instagram{
+    width: 30px;
+
+}
+
+#Facebook{
+    width: 30px;
+}
+
+#Twitter{
+    width: 40px;
+}
+
 #logoAP{
- height: 150px;
+ height: 100px;
+}
+
+img{
+    width: 150px;
+    
+}
+
+.btn{
+    border-width: medium;
+    right: 100%;
+}
+
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redes img{
+        margin: 0.2em;
+    }
 }
